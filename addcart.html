@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+      function confirms()
+      {
+       return  confirm ("Are you sure!");
+      } 
+
+      function buy()
+      {
+       return  confirm ("Thankuuu Visit Again!");
+      } 
+    </script>
+
+
+    <style type="text/css">
+    	#btn1
+      {
+        background-image: radial-gradient(#027882 ,#024045 );
+        color: white;
+        border-color: #024045;
+        border-radius: 30px;
+        width: 120px;
+        height: 32px;
+        margin-left: 80px;
+      }
+    </style>
+
+	<title>Add to Cart</title>
+    
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tour">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/home/" data-toggle="tooltip" data-placement="bottom" title="Site-Name!">Snap-Bite</a>
+
+        </div>
+
+        <div class="collapse navbar-collapse" id="tour">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Home!">Home</a>
+                </li>
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Shoes!">Menu</a>
+                </li>
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="About!">About</a>
+                </li>
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Contact!">Gallary</a>
+                <li><a href="index.html" data-toggle="tooltip" data-placement="bottom" title="Contact!">Contact</a>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="addcart.html"><span class="glyphicon glyphicon-shopping-cart" data-toggle="modal"
+                            data-target="#Shopping" data-placement="bottom" title="Add to Cart!!"></span></a>
+                        </li>
+            
+              
+                <li><a href="#"><span class="glyphicon glyphicon-log-in" data-toggle="modal" data-placement="bottom"
+                            title="Login!" data-target="#login"> Login </span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Navbar end -->
+
+   <div class="container">
+       <div class="well" style="margin-top: 110px; font-size: 30px;"><center><b>Add to <b style="color: #027882;">Cart</b></b></center></div>
+   </div>
+
+<!-- New Table --> 
+
+<div class="container">
+  <table class="table table-hover">
+    <thead>
+      <tr class="success">
+        <th width="25%">Product  Images</th>
+        <th width="20%">Product</th>
+        <th width="20%">Price</th>
+        <th width="15%">Delete</th>
+        <th width="15%">Purchase</th>
+      </tr>
+    </thead>
+    <tbody>
+      <form>
+        <tr>
+          <th><center><span data-toggle="modal" data-placement="bottom" title="Product Image" ><img src="./img/pasta.jpg" style="width:30%;"/></span></center></th>
+          <th style="font-size: 20px;"><span data-toggle="modal" data-placement="bottom" title="Product Name" > Pasta </span></th>
+          <th style="font-size: 20px;"><span data-toggle="modal" data-placement="bottom" title="Product Price" > ₹ 140 </span></th>
+          <th style="font-size: 20px;"><a href="" onclick="return confirms()"><span class="glyphicon glyphicon-trash" data-toggle="modal" data-placement="bottom" title="Delete" ></span></a></th>
+          <th style="font-size: 20px;">
+           <a href="order_tarking.html" onclick="return buy()">
+            <span data-toggle="modal" data-placement="bottom" title="Buy!">
+             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+             </svg>
+            </span>
+           </a>
+          </th>
+        </tr>
+
+        <tr>
+          <th><center><span data-toggle="modal" data-placement="bottom" title="Product Image" ><img src="./img/burger.png" style="width:30%;"/></span></center></th>
+          <th style="font-size: 20px;"><span data-toggle="modal" data-placement="bottom" title="Product Name" > Burger </span></th>
+          <th style="font-size: 20px;"><span data-toggle="modal" data-placement="bottom" title="Product Price" > ₹ 120 </span></th>
+          <th style="font-size: 20px;"><a href="" onclick="return confirms()"><span class="glyphicon glyphicon-trash" data-toggle="modal" data-placement="bottom" title="Delete" ></span></a></th>
+          <th style="font-size: 20px;">
+           <a href="order_tarking.html" onclick="return buy()">
+            <span data-toggle="modal" data-placement="bottom" title="Buy!">
+             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-heart" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M10.5 3.5a2.5 2.5 0 0 0-5 0V4h5zm1 0V4H15v10a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V4h3.5v-.5a3.5 3.5 0 1 1 7 0M14 14V5H2v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1M8 7.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132"/>
+             </svg>
+            </span>
+           </a>
+          </th>
+        </tr>
+      </form>
+    </tbody>
+  </table>
+</div>
+
+
+</body>
+</html>

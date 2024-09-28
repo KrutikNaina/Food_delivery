@@ -1,0 +1,751 @@
+<html>
+
+<head>
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- bootstrap link start -->
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- css start link -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- css chatbot start link -->
+    <link rel="stylesheet" href="style_chat.css">
+
+    <!-- icon link -->
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body style="background-color: black;">
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#tour">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#Home" data-toggle="tooltip" data-placement="bottom" title="Site-Name!">Snap-Bite</a>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="tour">
+                <ul class="nav navbar-nav">
+                    <li><a href="#Home" data-toggle="tooltip" data-placement="bottom" title="Home!">Home</a>
+                    </li>
+                    <li><a href="#Menu" data-toggle="tooltip" data-placement="bottom" title="Shoes!">Menu</a>
+                    </li>
+                    <li><a href="#About" data-toggle="tooltip" data-placement="bottom" title="About!">About</a>
+                    </li>
+                    <li><a href="#Gallary" data-toggle="tooltip" data-placement="bottom" title="Contact!">Gallary</a>
+                    <li><a href="#Contact" data-toggle="tooltip" data-placement="bottom" title="Contact!">Contact</a>
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="addcart.html"><span class="glyphicon glyphicon-shopping-cart" data-toggle="modal"
+                                data-target="#Shopping" data-placement="bottom" title="Add to Cart!!"></span></a>
+                            </li>
+            
+                    <li><a href="login.html"><span class="glyphicon glyphicon-log-in" data-toggle="modal" data-placement="bottom"
+                                title="Login!" data-target="#login"> Login </span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- Navbar end -->
+
+    <!-- home section starts  -->
+    <section id="Home">
+        <div class="container">
+        </div>
+        <div class="col-sm-13">
+            <div class="home">
+                <img class="img-responsive" src="./img/home_img_c.png" width="100%" id="img">
+            </div>
+            <div class="col-sm-6 ">
+
+                <p class="fnt"><b>Best Quality <br>Food</b></p>
+
+                <p class="fnt1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aliquam
+                    assumenda
+                    provident, soluta vero deserunt, veritatis quia numquam tempore, fugit et natus ipsam
+                    obcaecati
+                    doloremque alias omnis repellat neque! Excepturi.</p>
+
+                <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                    <a href="#Booktable" style="text-decoration: none;
+                       display: inline-block; 
+                       color: white;">Order</a>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- home page end -->
+
+    <!-- food Images  -->
+    <section id="Menu">
+        <div class="container-fluid" id="Shoes" style="background-color: black; color: white;">
+            <br><br>
+            <h1>
+                <center>OUR SPECIAL <b class="text-warning"> DISHES </b></center>
+            </h1>
+            <br><br>
+            <div class="col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#first"><img class="img-responsive" id="img2" src="./img/burger.png"
+                        alt="puma-red"><br></a>
+                <h3>
+                    <center>Burger</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 120</b></center>
+                </h3>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#second"><img class="img-responsive" id="img2" src="./img/dosa.jpg"
+                        alt="red-tape-sneraker"><br></a>
+                <h3>
+                    <center>Masala Dosa</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br>consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 240</b></center>
+                </h3>
+
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#third"><img class="img-responsive" id="img2" src="./img/pizza.jpg"
+                        alt="bucca-bucci-black"><br></a>
+                <h3>
+                    <center>Cheese-Pizza</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 500</b></center>
+                </h3>
+            </div>
+
+            <div class="img-sec-row col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#four"><img class="img-responsive" id="img2" src="./img/pasta.jpg"
+                        alt="centrino-green"><br></a>
+                <h3>
+                    <center>Pasta</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 140</b></center>
+                </h3>
+            </div>
+
+            <div class="img-sec-row col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#five"><img class="img-responsive" id="img2"
+                        src="./img/French_Fries.jpeg" alt="global-rich-white"><br></a>
+                <h3>
+                    <center>French-Fries</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 110</b></center>
+                </h3>
+            </div>
+
+            <div class="img-sec-row col-md-4 col-sm-6 col-xd-12">
+                <a data-toggle="modal" data-target="#six"><img class="img-responsive" id="img2"
+                        src="./img/cheese_sandwich.jpg" alt="bacca-bucci"><br></a>
+                <h3>
+                    <center>Cheese-Sandwich</center>
+                </h3>
+                <p>
+                    <center>Lorem ipsum dolor sit amet <br> consectetur, adipisicing elit.</center>
+                </p>
+                <h3 class="text-warning">
+                    <center><b>₹ 210</b></center>
+                </h3>
+            </div>
+        </div><br>
+
+    </section>
+
+    <!-- food end -->
+
+    <!-- about start -->
+    <section class="about" id="About">
+        <div class="container">
+            <h1 class="heading"><br><br>
+                <center><b class="text-warning"> About </b></center>
+            </h1>
+            <div class="col-sm-5">
+                <div class="row">
+                    <div class="video-container">
+                        <video src="./img/Burger3d_Animation.mp4" loop autoplay muted></video>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content" id="about-section" style="color: white;">
+                <div class="col-sm-7">
+                    <h1>Why choose us?</h1>
+                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                        necessitatibus illo reiciendis esse eos architecto provident fugiat autem a voluptatibus
+                        libero dolore incidunt vero, maxime veniam natus delectus ipsa ex.</p>
+                    <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                        necessitatibus illo reiciendis esse eos architecto provident fugiat autem a voluptatibus
+                        libero dolore incidunt vero, maxime veniam natus delectus ipsa ex.</p><br><br>
+                    <center>
+                        <div class="col-md-4">
+                            <i class="fas fa-bread-slice text-warning" style="font-size: 40px;"></i>
+                            <h6><b>EXPERIENCED CHEFS</b></h6>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-address-book	 text-warning" style="font-size: 40px;"></i>
+                            <h6><b>ORIGINAL RECIPES</b></h6>
+                        </div>
+                        <div class="col-md-4">
+                            <i class="fas fa-seedling text-warning" style="font-size: 40px;"></i>
+                            <h6><b>FRESH INGREDIENTS</b></h6>
+                        </div>
+                    </center>
+                    <!-- <i class="fas fa-bread-slice text-warning"></i><i class="fas fa-seedling text-warning"></i> -->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- about end -->
+
+    <!-- Modal First-->
+    <div id="first" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content" id="Modal-Product">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">
+                        <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                    </h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-sm-6 col-xd-12">
+                        <img class="img-responsive" id="img3" src="./img/burger.png" alt="Burger"><br></a>
+                    </div>
+
+                    <!-- Inforamtion -->
+                    <div class="col-sm-6 col-xd-12">
+                        <h3>Burger</h3>
+                        <h4><b>₹ 120 </b> &nbsp &nbsp <b style="color:orange;">30% OFF </b></h4>
+                        <h5>Include all Taxes</h5>
+                        <span>
+                            <h4>Extra <b>Cheese</b></h4>
+                        </span>
+                        <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                            <a href="#Booktable" style="text-decoration: none;
+                               display: inline-block; 
+                               color: white;">Add to cart</a>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- first model end -->
+
+        <!-- Modal Second-->
+        <div id="second" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div class="modal-content" id="Modal-Product">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-sm-6 col-xd-12">
+                            <img class="img-responsive" id="img3" src="./img/dosa.jpg" alt="Burger"><br></a>
+                        </div>
+    
+                        <!-- Inforamtion -->
+                        <div class="col-sm-6 col-xd-12">
+                            <h3>Masala Dosa</h3>
+                            <h4><b>₹ 240 </b> &nbsp &nbsp <b style="color:orange;">10% OFF </b></h4>
+                            <h5>Include all Taxes</h5>
+                            <span>
+                                <h4>Extra <b>Cheese</b></h4>
+                            </span>
+                            <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                                <a href="#Booktable" style="text-decoration: none;
+                                   display: inline-block; 
+                                   color: white;">Add to cart</a>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first Second end -->
+
+          <!-- Modal third-->
+          <div id="third" class="modal fade" role="dialog">
+            <div class="modal-dialog">
+    
+                <!-- Modal content-->
+                <div class="modal-content" id="Modal-Product">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">
+                            <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                        </h4>
+                    </div>
+                    <div class="modal-body">
+                        <div class="col-sm-6 col-xd-12">
+                            <img class="img-responsive" id="img3" src="./img/pizza.jpg" alt="Burger"><br></a>
+                        </div>
+    
+                        <!-- Inforamtion -->
+                        <div class="col-sm-6 col-xd-12">
+                            <h3>Cheese-Pizza</h3>
+                            <h4><b>₹ 500 </b> &nbsp &nbsp <b style="color:orange;">5% OFF </b></h4>
+                            <h5>Include all Taxes</h5>
+                            <span>
+                                <h4>Extra <b>Cheese</b></h4>
+                            </span>
+                            <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                                <a href="#Booktable" style="text-decoration: none;
+                                   display: inline-block; 
+                                   color: white;">Add to cart</a>
+                        </div>
+                        <div class="modal-footer">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- first third end -->
+
+  <!-- Modal four-->
+  <div id="four" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" id="Modal-Product">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">
+                    <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-6 col-xd-12">
+                    <img class="img-responsive" id="img3" src="./img/pasta.jpg" alt="Burger"><br></a>
+                </div>
+
+                <!-- Inforamtion -->
+                <div class="col-sm-6 col-xd-12">
+                    <h3>Pasta</h3>
+                    <h4><b>₹ 140 </b> &nbsp &nbsp <b style="color:orange;"> </b></h4>
+                    <h5>Include all Taxes</h5>
+                    <span>
+                        <h4>Extra <b>Cheese</b></h4>
+                    </span>
+                    <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                        <a href="#Booktable" style="text-decoration: none;
+                           display: inline-block; 
+                           color: white;">Add to cart</a>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- first four end -->
+
+  <!-- Modal five-->
+  <div id="five" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" id="Modal-Product">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">
+                    <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-6 col-xd-12">
+                    <img class="img-responsive" id="img3" src="./img/French_Fries.jpeg" alt="Burger"><br></a>
+                </div>
+
+                <!-- Inforamtion -->
+                <div class="col-sm-6 col-xd-12">
+                    <h3>French-Fries</h3>
+                    <h4><b>₹ 110 </b> &nbsp &nbsp <b style="color:orange;"> 15% Offer </b></h4>
+                    <h5>Include all Taxes</h5>
+                    <span>
+                        <h4>Extra <b>Cheese</b></h4>
+                    </span>
+                    <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                        <a href="#Booktable" style="text-decoration: none;
+                           display: inline-block; 
+                           color: white;">Add to cart</a>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- first five end -->
+
+  <!-- Modal six-->
+  <div id="six" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content" id="Modal-Product">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">
+                    <center> <b>Best</b><b style="color: orange;"> Offer! </b></center>
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="col-sm-6 col-xd-12">
+                    <img class="img-responsive" id="img3" src="./img/cheese_sandwich.jpg" alt="Burger"><br></a>
+                </div>
+
+                <!-- Inforamtion -->
+                <div class="col-sm-6 col-xd-12">
+                    <h3>Cheese-Sandwich</h3>
+                    <h4><b>₹ 210 </b> &nbsp &nbsp <b style="color:orange;"> 25% Offer </b></h4>
+                    <h5>Include all Taxes</h5>
+                    <span>
+                        <h4>Extra <b>Cheese</b></h4>
+                    </span>
+                    <button class="btn1 btn-warning" data-toggle="tooltip" data-placement="bottom" title="Shopping!">
+                        <a href="#Booktable" style="text-decoration: none;
+                           display: inline-block; 
+                           color: white;">Add to cart</a>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- first six end -->
+
+    <!-- gallary start -->
+    <section id="Gallary">
+        <div class="container-fluid" style="background-color: black; color: white;">
+            <br><br>
+            <h1>
+                <center>OUR <b class="text-warning"> Gallary </b></center>
+            </h1>
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img class="img-responsive" id="gallary-img" src="./img/gulab_jambu (1).png" alt="Gulab Jambu">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" id="gallary-img" src="./img/dosa.png" alt="Dosa">
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-responsive" id="gallary-img" src="./img/samosa.png" alt="Samosa">
+                    </div><br>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <img class="img-responsive" id="gallary-img" src="./img/frech.png" alt="French-Fries">
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <img class="img-responsive" id="gallary-img" src="./img/meduvada.png" alt="Medu vada">
+                    </div>
+                    <div class="col-md-4" style="margin-top: 20px;">
+                        <img class="img-responsive" id="gallary-img" src="./img/burger1.png" alt="Burger">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallary end -->
+
+
+    <!-- Container (booktbale Section) -->
+    <br><br>
+    <section id="Booktable">
+        <div class="container">
+            <h3 class="text-center">
+                <h1 style="color: white;">
+                    <center>BOOK YOUR <b class="text-warning"> TABLE </b></center>
+                </h1>
+            </h3>
+            <p class="text-warning">
+                <center>Book Your Faourite Table..!</center>
+            </p>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 style="color: white;">
+                        <center><b>OPENING HOURS</b></center>
+                    </h2>
+                    <p>
+                        <center>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos, natus vitae,
+                            modi, neque fugit aliquid eos ullam a dolorum non dicta labore consequuntur minima
+                            blanditiis ipsa? Itaque eaque quis suscipit!</center>
+                    </p>
+                    <br>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">Monday - Friday </h4>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">6:00 PM - 11:00 PM</h4>
+                    </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">Saturday</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">6:00 PM - 12:00 PM</h4>
+                    </div>
+                    <hr>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">Sunday</h4>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 style="color: white;">6:00 PM - 12:00 PM</h4>
+                    </div>
+                    <hr>
+                </div>
+                <div class="col-md-6">
+                    <form name="f1" action="/insert/" onsubmit="return validation()" method="POST">
+                      
+                        <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" id="cont-txt" name="rname" placeholder="Name" type="text"
+                                    required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="cont-txt form-control" id="cont-txt" name="rlastname"
+                                    placeholder="Last Name" type="text" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="cont-txt form-control" id="cont-txt" name="remail" placeholder="Email"
+                                    type="email" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="cont-txt form-control" id="cont-txt" name="rphone" placeholder="Phone no"
+                                    type="number" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <select class="cont-txt form-control" id="cont-txt" name="rperson">
+                                    <option>2 Person</option>
+                                    <option>4 Person</option>
+                                    <option>6 Person</option>
+                                    <option>Many Person</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <select class="cont-txt form-control" id="cont-txt" name="rtable" name="combo">
+                                    <option>Table no 1</option>
+                                    <option>Table no 2</option>
+                                    <option>Table no 3</option>
+                                    <option>Table no 4</option>
+                                    <option>Table no 5</option>
+                                    <option>Table no 6</option>
+                                    <option>Table no 7</option>
+                                    <option>Table no 8</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" style="background-color: black; color: white;" name="rdate"
+                                    placeholder="Date" type="date" required>
+                            </div>
+                            <div class="col-sm-6 form-group">
+                                <input class="form-control" style="background-color: black; color: white;" name="rtime"
+                                    placeholder="Time" type="time" required>
+                            </div>
+                            <div class="col-sm-12 form-group">
+                                <textarea class="form-control" id="cont-txt" name="rcomment" placeholder="Comment"
+                                    rows="5"></textarea>
+                            </div>
+                            <br>
+                            <div class="row">
+                                <div class="col-md-12 form-group">
+                                    <input type="submit" class="btn pull-right btn-warning" type="submit"
+                                        style="width:100px;" onclick="return confirms()" title="Send!" value="Send">
+                                </div>
+                            </div>
+                    </form>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+    <!-- contact page end -->
+    <script>
+        function confirms() {
+            return confirm("Your Table Book..!");
+        } 
+    </script>
+    <!-- book table end -->
+
+    <!-- contact start -->
+    <section id="Contact">
+        <div class="container-fluid" id="Shoes" style="background-color: black; color: white;">
+            <br><br>
+            <h1>
+                <center>OUR SPECIAL <b class="text-warning"> DISHES </b></center>
+            </h1>
+            <br><br>
+            <div class="col-md-3 col-sm-6 col-xd-12">
+                <h3 class="text-warning">
+                    <center><span class="glyphicon glyphicon-globe text-warning" style="font-size: 20px;"></span>
+                        Location</center>
+                </h3>
+                <h5>
+                    <center>150ft Main Road, Rajkot</center>
+                </h5>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xd-12">
+                <h3 class="text-warning">
+                    <center><span class="glyphicon glyphicon-earphone text-warning" style="font-size: 20px;"></span>
+                        Phone</center>
+                </h3>
+                <h5>
+                    <center>+91 9876543210</center>
+                </h5>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xd-12">
+                <h3 class="text-warning">
+                    <center><span class="glyphicon glyphicon-envelope text-warning" style="font-size: 20px;"></span>
+                        Email</center>
+                </h3>
+                <h5>
+                    <center>dreamrestro@gmail.com</center>
+                </h5>
+            </div>
+
+            <div class="col-md-3 col-sm-6 col-xd-12">
+                <h3 class="text-warning"></h3><br>
+                <center>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-linkedin text-warning" id="icon"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-instagram text-warning" id="icon"></i> &nbsp;&nbsp;&nbsp;&nbsp;
+                    <i class="fab fa-twitter text-warning" id="icon"></i>
+                </center>
+            </div>
+        </div>
+        <div><br>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59074.740272253395!2d70.73701061391601!3d22.27150127466766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959ca2393e9eecf%3A0x214123375fef5198!2s150%20Feet%20Ring%20Rd%2C%20Gujarat!5e0!3m2!1sen!2sin!4v1709564300719!5m2!1sen!2sin"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- contact end -->
+
+    <!-- Footar start -->
+    <section>
+        <div style="width: 100%; height: 70px;"><br>
+            <h6 style="color: white;">
+                <center>Copyright © All rights reserved. Terms of use and Privacy Policy.</center>
+            </h6>
+        </div>
+    </section>
+    <!-- Footar end -->
+
+
+    <!-- chatbot start -->
+    <div class="chatbox-wrapper">
+		<div class="chatbox-toggle">
+			<i class='bx bx-message-dots'></i>
+		</div>
+		<div class="chatbox-message-wrapper">
+			<div class="chatbox-message-header">
+				<div class="chatbox-message-profile">
+					<img src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="chatbox-message-image">
+					<div>
+						<h4 class="chatbox-message-name">Snap-Bite</h4>
+						<p class="chatbox-message-status">online</p>
+					</div>
+				</div>
+				<div class="chatbox-message-dropdown">
+					<i class='bx bx-dots-vertical-rounded chatbox-message-dropdown-toggle'></i>
+					<ul class="chatbox-message-dropdown-menu">
+						<li>
+							<a href="#">Search</a>
+						</li>
+						<li>
+							<a href="#">Report</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="chatbox-message-content">
+				<h4 class="chatbox-message-no-message">You don't have message yet!</h4>
+				<!-- <div class="chatbox-message-item sent">
+					<span class="chatbox-message-item-text">
+						Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+					</span>
+					<span class="chatbox-message-item-time">08:30</span>
+				</div>
+				<div class="chatbox-message-item received">
+					<span class="chatbox-message-item-text">
+						Lorem, ipsum, dolor sit amet consectetur adipisicing elit. Quod, fugiat?
+					</span>
+					<span class="chatbox-message-item-time">08:30</span>
+				</div> -->
+			</div>
+			<div class="chatbox-message-bottom">
+				<form action="#" class="chatbox-message-form">
+					<textarea rows="1" placeholder="Type message..." class="chatbox-message-input"></textarea>
+					<button type="submit" class="chatbox-message-submit"><i class='bx bx-send' ></i></button>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	<script src="chatbot_script.js"></script>
+    <!-- chatbot end -->
+
+</body>
+
+</html>
